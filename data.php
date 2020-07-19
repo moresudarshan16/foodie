@@ -1,5 +1,5 @@
 <?php
-
+include 'contactus.html'
 include 'connection.php';
 $name = $_POST['name'];
 $subject = $_POST['subject'];
