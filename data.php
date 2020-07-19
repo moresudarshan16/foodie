@@ -1,4 +1,5 @@
 <?php
+include 'contactus.html';
 
 include 'connection.php';
 $name = $_POST['name'];
@@ -13,10 +14,11 @@ $sql = "INSERT INTO `contact_us` (`name`,`subject`,`message`,`emailid`,`contactn
 $result = mysqli_query($conn,$sql);
   
 if ($result== TRUE){
-$success = 'success';
-$_SESSION['success']= $success;
-header("Location: /foodie/contactus.html");
-}
+    echo ( "<script type='text/javascript'>alert('Thank You for Contacting Us..');
+    windows.history.log(-1);
+    
+     </script>");}
+
 
 
 ?>
