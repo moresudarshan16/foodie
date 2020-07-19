@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.title {
+    font-family: 'Dancing Script', cursive;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.click {
+    height: 60vh;
+    width: 50vh;
+}
+
+.details {
+    font-family: 'Oswald', sans-serif;
+}
