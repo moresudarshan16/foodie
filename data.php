@@ -15,7 +15,7 @@ $result = mysqli_query($conn,$sql);
 if ($result== TRUE){
 $success = 'success';
 $_SESSION['success']= $success;
-header("Location: contactus.html");
+header("Location: /foodie/contactus.html");
 }
 
 
